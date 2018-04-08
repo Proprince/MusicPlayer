@@ -1,4 +1,4 @@
-function out = merge_wav(in1, in2)
+function out = merge_wav(in1, in2) %ÉùÒôºÏ²¢
 if size(in1, 2) ~= size(in2, 2)
     return
 end
